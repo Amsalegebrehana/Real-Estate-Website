@@ -3,6 +3,7 @@ import './App.css';
 import BottomFooter from './components/Footer/BottomFooter';
 import TopHeader from './components/Header/TopHeader';
 import Header from './components/Header/Header';
+import SalesForm from './components/Form/SaleForm';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
 
       <TopHeader />
       <Header />
+      <SalesForm />
       
     </div>
   );
