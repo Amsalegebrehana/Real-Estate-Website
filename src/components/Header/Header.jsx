@@ -5,12 +5,12 @@ import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined
 const  Header = () => {
     return (
         <div className='flex p-5 justify-between px-14'>
-            <div className='flex space-x-6'>
-                <p>Home</p>
-                <p>About</p>
-                <p>Listings</p>
-                <p>Services</p>
-                <p>Blogs</p>
+            <div className='flex space-x-2'>
+                <a href='#' className='hover:bg-secondary bg-opacity-50 px-4 py-3  rounded-full'>Home</a>
+                <a href='#' className='hover:bg-secondary bg-opacity-50 px-4 py-3 rounded-full'>About</a>
+                <a href='#' className='hover:bg-secondary bg-opacity-50 px-4 py-3 rounded-full'>Listings</a>
+                <a href='#' className='hover:bg-secondary bg-opacity-50 px-4 py-3 rounded-full'>Services</a>
+                <a href='#' className='hover:bg-secondary bg-opacity-50 px-4 py-3 rounded-full'>Blogs</a>
             </div>
             <div className='flex'>
                 <div className='rounded-full bg-primary p-3 text-white'>
@@ -20,11 +20,11 @@ const  Header = () => {
             </div>
             <div className='flex'>
                 
-                <button className='flex p-3 '>
+                <button className='flex p-3 justify-center'>
                     <AccountCircleOutlinedIcon fontSize='small' />
                     <p className='px-2 text-base'>Login/Signup</p>
                 </button>
-                <button className='flex rounded-full bg-primary p-3 text-white justify-center'>
+                <button className='flex rounded-full bg-primary py-3 px-4 text-white justify-center'>
                     <HomeOutlinedIcon fontSize='small' />
                     <p className='text-base px-2'>Add Listing</p>
                 </button>
