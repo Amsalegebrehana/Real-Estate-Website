@@ -16,6 +16,7 @@ module.exports = {
         textcolor3:"#808080",
         textcolor4:"#AAAAAA",
         textcolor5:"#D4D4D4",
+        graycolor:"rgba(212, 212, 212, 0.2)",
       },
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif'],
