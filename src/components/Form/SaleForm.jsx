@@ -15,7 +15,7 @@ const SalesForm = () => {
       };
 
     return (
-        <div className="bg-white  py-12 shadow-md sm:rounded-xl w-96 ml-10">
+        <div className="bg-white px-7 py-12 shadow-lg sm:rounded-3xl h-full w-1/3 ml-10 mt-14">
 
            {/* tab */}
             <div className="hidden sm:block">
@@ -29,7 +29,7 @@ const SalesForm = () => {
                             tab.current
                                 ? 'border-primary text-primary'
                                 : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700',
-                                'w-1/2 border-b-2 py-4  text-center text-base font-medium'
+                                'w-1/2 border-b-2 py-4  text-center text-lg font-medium'
                             )}
                             aria-current={tab.current ? 'page' : undefined}
                         >
@@ -41,45 +41,49 @@ const SalesForm = () => {
             </div>
             
             {/* form */}
-            <div className="p-6 space-y-6">
+            <div className="p-6 mt-7">
+                <div className=" space-y-9">
 
-                <input 
-                    type="text" 
-                    placeholder="Enter Location" 
-                    className=" bg-graycolor rounded-xl p-4 w-full text-gray-400 text-base font-thin" />
+                    <input 
+                        type="text" 
+                        placeholder="Enter Location" 
+                        className="border-none bg-graycolor rounded-3xl  p-5 w-full text-gray-400 text-lg font-thin" />
 
-                <select
-                    id="propery-type"
-                    name="Select Property Type"
-                    className="bg-graycolor text-gray-400 rounded-md p-4 w-full text-base font-thin sm:leading-6"
-                    defaultValue="Select Property Type"
-                >
-                    <option>Select Property Type</option>
-                    <option>Canada</option>
-                    <option>Mexico</option>
-                </select>   
+                    <select
+                        id="propery-type"
+                        name="Select Property Type"
+                        className="border-none bg-graycolor text-gray-400 rounded-3xl p-5 w-full text-lg font-thin sm:leading-6"
+                        defaultValue="Select Property Type"
+                    >
+                        <option>Select Property Type</option>
+                        <option>Canada</option>
+                        <option>Mexico</option>
+                    </select>   
 
-                <select
-                    id="rooms"
-                    name="Select Rooms"
-                    className="bg-graycolor text-gray-400 rounded-md p-4 w-full text-base font-thin sm:leading-6"
-                    defaultValue="Rooms"
-                >
-                    <option>Select Rooms</option>
-                    <option>Canada</option>
-                    <option>Mexico</option>
-                </select>
+                    <select
+                        id="rooms"
+                        name="Select Rooms"
+                        className="border-none bg-graycolor text-gray-400 rounded-3xl p-5 w-full text-lg font-thin sm:leading-6"
+                        defaultValue="Rooms"
+                    >
+                        <option>Select Rooms</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                    </select>
+                </div>
 
-                <div className="flex space-x-2 text-primary ">
+                <div className="flex space-x-2 text-primary mt-7">
                     <div style={{ transform: 'rotate(-90deg)' }}>
                         <TuneIcon />
                     </div>
-                    <p className='text-sm'>Advance Search</p>
+                    <p className='text-base font-thin'>Advance Search</p>
                 </div>
 
-                <button className='flex rounded-full py-4   w-full  bg-primary text-white justify-center align-center'>
+                <button className='flex rounded-full py-4  mt-14 w-full  bg-primary text-white justify-center align-center'>
                     <SearchIcon />
-                    <p className='font-thin pl-2'>Search </p>
+                    <p className='font-medium pl-2 text-lg'>Search </p>
                 </button>
             </div>
 

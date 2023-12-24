@@ -11,7 +11,7 @@ module.exports = {
         color2:"#4CC9F0",
         color3:"#7209B7",
         color4:"#F72585",
-        textcolor1:"#0B090A",
+        colur1:"#4361EE",
         textcolor2:"#2B2B2B",
         textcolor3:"#808080",
         textcolor4:"#AAAAAA",
