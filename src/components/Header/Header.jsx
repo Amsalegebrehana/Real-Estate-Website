@@ -1,6 +1,7 @@
 import React from 'react';
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
+import Logo from '../../assets/logo.svg';
 
 const  Header = () => {
     return (
@@ -16,7 +17,8 @@ const  Header = () => {
                 </div>
                 <div className='flex'>
                     <div className='rounded-full bg-primary p-3 text-white'>
-                        <HomeOutlinedIcon fontSize='medium' color='#ff9800'/>
+                   
+                        <img src={Logo} alt='logo' />
                     </div>
                     <p className=' font-semibold p-2 text-center text-xl'>Rezilla</p>
                 </div>
@@ -27,7 +29,7 @@ const  Header = () => {
                         <p className='px-2 text-base'>Login/Signup</p>
                     </button>
                     <button className='flex rounded-full bg-primary py-3 px-4 text-white justify-center'>
-                        <HomeOutlinedIcon fontSize='small' />
+                        <img src={Logo} alt='logo' />
                         <p className='text-base px-2'>Add Listing</p>
                     </button>
                     
