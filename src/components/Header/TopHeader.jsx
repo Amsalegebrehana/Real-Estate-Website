@@ -6,7 +6,7 @@ import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 
 const TopHeader = () => {
     return(
-        <div className="flex bg-primary justify-between px-14 py-2 text-white">
+        <div className="hidden sm:flex bg-primary justify-between px-14 py-2 text-white">
            
         <div className='flex '>
             <LocationOnOutlinedIcon fontSize="small"/>

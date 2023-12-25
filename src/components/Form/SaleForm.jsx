@@ -15,10 +15,10 @@ const SalesForm = () => {
       };
 
     return (
-        <div className="bg-white px-7 py-12 shadow-lg sm:rounded-3xl h-full w-1/3 ml-10 mt-14">
+        <div className="bg-white mx-7 md:px-7 lg:px-7 py-12 shadow-lg rounded-3xl h-full md:w-1/3 lg:w-1/3 ml-10 mt-14">
 
            {/* tab */}
-            <div className="hidden sm:block">
+            <div className=" ">
                 <div className="border-b border-gray-200">
                     <nav className="-mb-px flex" aria-label="Tabs">
                         {tabs.map((tab) => (

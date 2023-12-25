@@ -16,7 +16,8 @@ function App() {
       <TopHeader />
       <Header />
       <Description />
-      <div className='flex justify-center align-center z-50 mb-14 mt-7'>
+      <div className='flex flex-col space-y-10 sm:space-y-10  lg:space-y-0 md:space-y-0 md:flex-row justify-center items-center z-50 mb-14 md:mb-0 mt-7 md:mt-0'>
+          
             <AvatarGroup />
             <Avatar />
         </div>

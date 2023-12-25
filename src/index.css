@@ -17,16 +17,3 @@ body {
   background-image: linear-gradient(180deg, rgba(153, 213, 231, 0.03), rgba(157, 188, 223, 0.48), rgba(164, 175, 233, 0.9));
 
   }
-
-  .ciircle-2 {
-
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 179px;
-    top: 1262px;
-    border-radius: 50%;
-    background: linear-gradient(180deg, #4361EE 0%, rgba(67, 97, 238, 0) 100%);
-    opacity: 0.5;
-    transform: rotate(-30deg);
-  }
