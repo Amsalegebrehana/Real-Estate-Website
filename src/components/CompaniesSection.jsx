@@ -13,7 +13,7 @@ const CompanySection = () => {
         <div >
             <p className='justify-center text-center py-14 text-textcolor3 text-base'>Trusted by 100+ Companies across the globe! </p>
             <div className='ciircle-2'></div>
-            <div className="flex space-x-3 px-5" >
+            <div className="flex flex-wrap space-x-3 justify-center " >
                 <div className="w-44 h-36 filter grayscale">
                     <GoogleIcon />
                 </div>
