@@ -21,8 +21,9 @@ const Header = () => {
 
 
         <div className=' navbar sticky mb-10 w-full z-50 bg-white top-0'>
+            <div className='container'>
 
-            <div className='flex p-5 justify-between px-14 '>
+            <div className='flex p-5 justify-between  '>
                 <div className='hidden md:flex flex-col sm:flex-col md:flex-row lg:flex-row space-x-2'>
                     <a href='#' className='hover:bg-secondary bg-opacity-50 px-4 py-3  rounded-full'>Home</a>
                     <a href='#' className='hover:bg-secondary bg-opacity-50 px-4 py-3 rounded-full'>About</a>
@@ -78,6 +79,7 @@ const Header = () => {
                     </button>
             </div>
             ): ''}
+            </div>
             
         </div>
 

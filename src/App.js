@@ -8,6 +8,7 @@ import Description from './components/Description';
 import AvatarGroup from './components/AvatarGroup';
 import Avatar from './components/Avatar';
 import CompanySection from './components/CompaniesSection';
+import AboutSection from './components/AboutSection';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <CompanySection />
         
         </div>
+        <AboutSection />
     </div>
   );
 }
