@@ -15,7 +15,7 @@ const SalesForm = () => {
       };
 
     return (
-        <div className="bg-white mx-7 md:px-7 lg:px-7 py-12 shadow-lg rounded-3xl h-full md:w-1/3 lg:w-1/3 ml-10 mt-14">
+        <div className="bg-white lg:ml-32 md:px-7 lg:px-7 py-12 shadow-lg rounded-3xl h-full md:w-1/3 lg:w-1/3 ml-10 mt-14">
 
            {/* tab */}
             <div className=" ">
