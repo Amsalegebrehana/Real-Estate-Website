@@ -1,0 +1,72 @@
+
+[
+    {
+        "id": 18,
+        "title": "Tranquil Haven in the Woods",
+        "price": "2,389",
+        "image":"../../assets/Rectangle_18.svg",
+        "address": "103 Wright CourtBurien, WA 98168",
+        "numberOfBedRooms": "4",
+        "numberOfBathRooms": "3",
+        "tag": "Popular",
+        "type":"sell"
+    },
+    {
+        "id": 19,
+        "title": "Serene Retreat by the Lake",
+        "price": "5,970",
+        "image":"../../assets/Rectangle_18.svg",
+        "address": "1964 Jehovah Drive, VA 22408",
+        "numberOfBedRooms": "3",
+        "numberOfBathRooms": "2",
+        "tag": "New Listing",
+        "type":"sell"
+    },
+    {
+        "id": 20,
+        "title": "Charming Cottage in the Meadow",
+        "price": "3,450",
+        "image":"../../assets/Rectangle_18.svg",
+        "address": "1508 Centennial Farm RoadHarlan, 51537",
+        "numberOfBedRooms": "4",
+        "numberOfBathRooms": "4",
+        "tag": "Discounted Price",
+        "type":"rent"
+    },
+    {
+        "id": 21,
+        "title": "Grand Estate on the Hilltop",
+        "price": "1,700",
+        "image":"../../assets/Rectangle_18.svg",
+        "address": "103 Wright CourtBurien, WA 98168",
+        "numberOfBedRooms": "2",
+        "numberOfBathRooms": "1",
+        "tag": "Popular",
+        "type":"rent"
+    }
+    ,
+    {
+        "id": 22,
+        "title": "Grand Estate on the Hilltop",
+        "price": "1,700",
+        "image":"../../assets/Rectangle_18.svg",
+        "address": "103 Wright CourtBurien, WA 98168",
+        "numberOfBedRooms": "2",
+        "numberOfBathRooms": "1",
+        "tag": "Discounted Price",
+        "type":"rent"
+    }
+    ,
+    {
+        "id": 23,
+        "title": "Grand Estate on the Hilltop",
+        "price": "1,700",
+        "image":"../../assets/Rectangle_18.svg",
+        "address": "103 Wright CourtBurien, WA 98168",
+        "numberOfBedRooms": "2",
+        "numberOfBathRooms": "1",
+        "tag": "New Listing",
+        "type":"rent"
+    }
+
+]
