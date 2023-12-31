@@ -8,6 +8,7 @@ import Avatar from './components/Avatar';
 import CompanySection from './components/CompaniesSection';
 import AboutSection from './components/AboutSection';
 import LatestProperties from './components/Properties/LatestProperties';
+import Services from './components/Services/OurServices';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         </div>
         <AboutSection />
         <LatestProperties />
+        <Services />
     </div>
   );
 }
