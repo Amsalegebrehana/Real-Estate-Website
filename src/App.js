@@ -9,6 +9,7 @@ import CompanySection from './components/CompaniesSection';
 import AboutSection from './components/AboutSection';
 import LatestProperties from './components/Properties/LatestProperties';
 import Services from './components/Services/OurServices';
+import NeighborhoodProperties from './components/Properties/NeighborhoodProperties';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <AboutSection />
         <LatestProperties />
         <Services />
+        <NeighborhoodProperties />
     </div>
   );
 }
