@@ -10,6 +10,8 @@ import AboutSection from './components/AboutSection';
 import LatestProperties from './components/Properties/LatestProperties';
 import Services from './components/Services/OurServices';
 import NeighborhoodProperties from './components/Properties/NeighborhoodProperties';
+import Teams from './components/Teams';
+import LatestBlogs from './components/Blog/blogs';
 
 function App() {
   return (
@@ -31,6 +33,8 @@ function App() {
         <LatestProperties />
         <Services />
         <NeighborhoodProperties />
+        <Teams />
+        <LatestBlogs />
     </div>
   );
 }
