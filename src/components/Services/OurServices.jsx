@@ -5,10 +5,12 @@ import HomeIcon from '../../assets/whiteicon_home.svg';
 const Services = () => {
     return(
         <div className="bg-gray-100 mt-36">
-            <div className="container p-24">
+            <div className="container p-10 md:p-24 lg:p-24">
                 <p className='mb-7  text-lg tracking-widest font-meduim'>OUR SERVICES</p>
                 <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-semibold mb-7">Donec porttitor euismod dignissim</p>
-                <div className="flex space-x-10 mt-10">
+                
+                <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row space-y-5 md:space-x-10 lg:space-x-10 mt-10">
+                    
                     <div className="flex flex-col px-18 py-14 bg-white shadow-2xl rounded-3xl justify-center items-center">
                         <div className='bg-colur1 w-20 h-20 flex shadow-2xl items-center justify-center rounded-full p-4'>
                             <img src={SearchIcon} alt="" srcSet="" />
@@ -17,7 +19,7 @@ const Services = () => {
                         <p className='flex text-sm text-textcolor3 text-center px-14 font-thin'>Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec dignissim purus. </p>
                     </div>
 
-                    <div className="bg-white shadow-2xl rounded-3xl flex flex-col justify-center items-center">
+                    <div className="flex flex-col px-18 py-14 bg-white shadow-2xl rounded-3xl justify-center items-center">
                         <div className='bg-colur1 w-20 h-20 flex shadow-xl items-center justify-center rounded-full p-4'>
                             <img src={HomeIcon} alt="" srcset="" />
                         </div>
@@ -25,7 +27,7 @@ const Services = () => {
                         <p className='text-sm text-textcolor3 px-14 font-thin text-center'>Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec dignissim purus. </p>
                     </div>
 
-                    <div className="bg-white shadow-2xl rounded-3xl flex flex-col justify-center items-center">
+                    <div className="flex flex-col px-18 py-14 bg-white shadow-2xl rounded-3xl justify-center items-center">
                         <div className='bg-colur1 w-20 h-20 flex  shadow-2xl items-center justify-center rounded-full p-4'>
                             <img src={BedIcon} alt="" srcset="" />
                         </div>

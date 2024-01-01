@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "title": "Top 10 Home Buying Mistakes to Avoid",
+        "href": "#",
+        "description": "Etiam eget elementum elit. Aenean dignissim dapibus vestibulum",
+        "imageUrl": "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
+        "date": "Mar 16, 2020",
+        "day": "28",
+        "datetime": "Tue",
+        "category": { "title": "Marketing", "href": "#" },
+        "author": {
+            "name": "Michael Foster",
+            "role": "Co-Founder / CTO",
+            "href": "#",
+            "imageUrl": "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+        }
+    },
+    {
+        "id": 2,
+        "title": "How to Stage Your Home for a Quick Sale",
+        "href": "#",
+        "description": "Nullam odio lacus, dictum quis pretium congue, vehicula venenatis nunc.",
+        "imageUrl": "https://www.rssmt.org/wp-content/uploads/2018/02/Section-8-Housing.jpg",
+        "date": "Mar 10, 2020",
+        "day": "08",
+        "datetime": "Mon",
+        "category": { "title": "Design", "href": "#" },
+        "author": {
+            "name": "Jane Cooper",
+            "role": "Senior Web Designer",
+            "href": "#",
+            "imageUrl": "https://images.unsplash.com/photo-1557800636-894a64e9e4d5?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+        }
+    },
+    {
+        "id": 3,
+        "title": "5 Tips for First-Time Home Sellers ",
+        "href": "#",
+        "description": "In hac habitasse platea dictumst. Phasellus vel velit vel augue maximus.",
+        "imageUrl": "https://learn.roofstock.com/hs-fs/hubfs/iStock-1145394590.jpg?width=2121&name=iStock-1145394590.jpg",
+        "date": "Mar 5, 2020",
+        "day": "26",
+        "datetime": "Wed",
+        "category": { "title": "Development", "href": "#" },
+        "author": {
+            "name": "John Doe",
+            "role": "Senior Developer",
+            "href": "#",
+            "imageUrl": "https://images.unsplash.com/photo-1557800636-894a64e9e4d5?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+        }
+    }
+]
