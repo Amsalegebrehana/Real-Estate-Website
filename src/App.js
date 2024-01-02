@@ -12,10 +12,12 @@ import Services from './components/Services/OurServices';
 import NeighborhoodProperties from './components/Properties/NeighborhoodProperties';
 import Teams from './components/Teams';
 import LatestBlogs from './components/Blog/blogs';
+import Testimonials from './components/Reviews/Testimonials';
+import BottomFooter from './components/Footer/BottomFooter';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App ">
 
       <TopHeader />
       <Header />
@@ -35,6 +37,8 @@ function App() {
         <NeighborhoodProperties />
         <Teams />
         <LatestBlogs />
+        <Testimonials />
+        <BottomFooter />
     </div>
   );
 }

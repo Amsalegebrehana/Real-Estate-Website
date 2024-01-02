@@ -20,7 +20,7 @@ const Header = () => {
     return (
 
 
-        <div className=' navbar sticky mb-10 w-full z-50 bg-white top-0'>
+        <div className=' navbar sticky mb-10 w-full z-50 bg-white top-0 '>
             <div className='container'>
 
             <div className='flex p-5 justify-between  '>
