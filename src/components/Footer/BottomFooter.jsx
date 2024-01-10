@@ -7,7 +7,7 @@ import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 const BottomFooter = () => {
 
     return (
-        <div className="flex bg-black justify-between px-14 py-2 text-white">
+        <div className="flex bg-black justify-between px-14 py-2 text-white bottom-0">
            
             <div className='flex '>
                 
