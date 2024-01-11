@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
 import Logo from '../../assets/logo.svg';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
+import PathConstants from '../../routes/PathConstants';
 
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -25,8 +27,16 @@ const Header = () => {
 
             <div className='flex p-5 justify-between  '>
                 <div className='hidden md:flex flex-col sm:flex-col md:flex-row lg:flex-row space-x-2'>
-                    <a href='#' className='hover:bg-secondary bg-opacity-50 px-4 py-3  rounded-full'>Home</a>
-                    <a href='#' className='hover:bg-secondary bg-opacity-50 px-4 py-3 rounded-full'>About</a>
+                    <p className='hover:bg-secondary bg-opacity-50 px-4 py-3  rounded-full'>
+                        <Link to={PathConstants.HOME}>
+                            Home
+                        </Link>
+                    </p>
+                    <p className='hover:bg-secondary bg-opacity-50 px-4 py-3 rounded-full'>
+                        <Link to={PathConstants.ABOUT}>
+                            About
+                        </Link>
+                    </p>
                     <a href='#' className='hover:bg-secondary bg-opacity-50 px-4 py-3 rounded-full'>Listings</a>
                     <a href='#' className='hover:bg-secondary bg-opacity-50 px-4 py-3 rounded-full'>Services</a>
                     <a href='#' className='hover:bg-secondary bg-opacity-50 px-4 py-3 rounded-full'>Blogs</a>
@@ -42,7 +52,11 @@ const Header = () => {
 
                     <button className='flex p-3 justify-center'>
                         <AccountCircleOutlinedIcon fontSize='small' />
-                        <p className='px-2 text-base'>Login/Signup</p>
+                        <p className='px-2 text-base'>
+                            <Link to={PathConstants.LOGIN}>
+                                Login/Signup
+                            </Link>
+                        </p>
                     </button>
                     <button className='flex rounded-full bg-primary py-3 px-4 text-white justify-center'>
                         <img src={Logo} alt='logo' />
