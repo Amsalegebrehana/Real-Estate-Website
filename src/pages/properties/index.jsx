@@ -1,5 +1,6 @@
 import BedIcon from '../../assets/bedIcon.svg';
 import BathIcon from '../../assets/bathroomicon.svg';
+import React, { useState, useEffect } from 'react';
 const files = [
     {
       id:1,
@@ -109,6 +110,30 @@ const files = [
   ]
 
 const Listings = () => {
+    const [filter, setFilter] = useState('');
+
+    const handleFilterChange = (e) => {
+        if (e === 'all') {
+            setFilter('');
+        }
+        else {
+            setFilter(e);
+        }
+    }
+
+    const filteredFiles = files.filter(
+        (file) => {
+            if (filter === '') {
+                return file;
+            }
+            else{
+                return file.type === filter;
+            }
+            
+        }
+    );
+    
+
     return (
         <div className="container">
             <div className="bg-white py-10 sm:py-14">
@@ -123,16 +148,16 @@ const Listings = () => {
                         </div>
 
                         <div className="space-x-3 mt-5">
-                            <button class="bg-transparent hover:bg-primary text-primary font-medium hover:text-white py-2 px-6 border border-primary hover:border-transparent rounded-full">
-                                All
+                        <button className={" text-primary font-medium py-2 px-6 border border-primary " + (filter===''? 'bg-primary rounded-full text-white':'rounded-full hover:text-white bg-transparent  hover:bg-primary hover:border-transparent')} onClick={() => handleFilterChange('sell')}>
+                               All
                             </button>
 
-                            <button class="bg-transparent hover:bg-primary text-primary font-medium hover:text-white py-2 px-6 border border-primary hover:border-transparent rounded-full">
+                            <button className={" text-primary font-medium py-2 px-6 border border-primary " + (filter==='sell'? 'bg-primary rounded-full text-white':'rounded-full hover:text-white bg-transparent  hover:bg-primary hover:border-transparent')} onClick={() => handleFilterChange('sell')}>
                                 Sell
                             </button>
 
-                            <button class="bg-transparent hover:bg-primary text-primary font-medium hover:text-white py-2 px-6 border border-primary hover:border-transparent rounded-full">
-                                Rent
+                            <button className={" text-primary font-medium py-2 px-6 border border-primary " + (filter==='rent'? 'bg-primary rounded-full text-white':'rounded-full hover:text-white bg-transparent  hover:bg-primary hover:border-transparent')} onClick={() => handleFilterChange('rent')}>
+                               Rent
                             </button>
                         </div>
                         </div>
@@ -140,7 +165,7 @@ const Listings = () => {
 
                     <div>
                         <ul role="list" className="grid grid-cols-2 mx-3 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
-                        {files.map((property) => (
+                        {filteredFiles.map((property) => (
                             <li key={property.source} className="rounded-2xl relative mt-14 ">
                                 <div className="group aspect-h-7 aspect-w-10 block w-full overflow-hidden rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100">
                                     <img src={property.source} alt="" className="pointer-events-none object-cover group-hover:opacity-75 h-72 w-full" />
@@ -151,13 +176,13 @@ const Listings = () => {
                                 <div className='text-left mt-5 space-y-2'>
                                     <div className='flex justify-between'>
                                         <p className='text-base sm:text-base md:text-xl lg:text-2xl font-medium'>$ {property.price}</p>
-                                        <span class="inline-flex items-center rounded-full bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/10 capitalize">{property.type}</span>
+                                        <span className="inline-flex items-center rounded-full bg-green-50 px-2 py-1 text-xs font-medium text-green-700 ring-1 ring-inset ring-green-600/10 capitalize">{property.type}</span>
 
                                     </div>
                                 <p className='text-xs  md:text-base lg:text-base font-medium'>{property.title}</p>
                                 <p className='text-sm md:text-sm lg:text-sm font-thin text-textcolor3'>{property.address}</p>
                                 <div className="flex space-x-3 font-thin text-textcolor3" >
-                                    {/* <BedIcon />  */}
+                                    {/* <BedIcon />  */} 
                                     <img src={BedIcon} alt="BedIcon" />
                                     <p className='text-textcolor2 text-xs sm:text-sm md:text-base lg:text-base'>{property.numberOfBedRooms} Beds</p>
                                     {/* <BathIcon /> */}
