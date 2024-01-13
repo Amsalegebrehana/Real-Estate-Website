@@ -10,7 +10,7 @@ const PathConstants = {
     LISTING: '/listing',
     LISTING_DETAIL: '/listing-detail',
     AGENT: '/agent',
-    PROPERTIES: '/properties',
+    PROPERTY: '/properties/:id',
 
 
 }

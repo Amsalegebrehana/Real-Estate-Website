@@ -10,6 +10,12 @@ const Login = React.lazy(() => import('../pages/auth/Login'));
 
 const Register = React.lazy(() => import('../pages/auth/Register'));
 
+const Blog = React.lazy(() => import('../pages/blog/Blogs'));
+
+const Listings = React.lazy(() => import('../pages/properties/index'));
+
+const Property = React.lazy(() => import('../pages/properties/Property'));
+
 const routes = [
     {
         path: PathConstants.HOME,
@@ -26,6 +32,18 @@ const routes = [
     {
         path: PathConstants.REGISTER,
         element: <Register />
+    },
+    {
+        path: PathConstants.BLOG,
+        element: <Blog />
+    },
+    {
+        path: PathConstants.LISTING,
+        element: <Listings />
+    },
+    {
+        path: PathConstants.PROPERTY,
+        element: <Property />
     }
 ];
 

@@ -2,8 +2,6 @@ import AboutSection from "../components/AboutSection";
 import Rectangle_14 from '../assets/Rectangle_14.svg';
 import Rectangle_15 from '../assets/Rectangle_15.svg';
 import Rectangle_16 from '../assets/Rectangle_16.svg'
-import SmartHomIcon from '../assets/smarthome.svg';
-import UserIcon from '../assets/user.svg';
 import searchrealestate from '../assets/searchrealestate.jpg';
 import timeline from '../data/timeline.json'
 
@@ -107,7 +105,7 @@ const About = () => {
             
                     
             </div>
-            {/* <h1>About</h1> */}
+            
              {/* Timeline section */}
                 <div className="mx-auto mt-16 mb-16 max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto grid max-w-2xl grid-cols-1 gap-8 overflow-hidden lg:mx-0 lg:max-w-none lg:grid-cols-4">

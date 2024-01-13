@@ -37,9 +37,19 @@ const Header = () => {
                             About
                         </Link>
                     </p>
-                    <a href='#' className='hover:bg-secondary bg-opacity-50 px-4 py-3 rounded-full'>Listings</a>
+                    <p  className='hover:bg-secondary bg-opacity-50 px-4 py-3 rounded-full'>
+                        <Link to={PathConstants.LISTING}>
+                            Listings
+                        </Link>
+                    </p>
                     <a href='#' className='hover:bg-secondary bg-opacity-50 px-4 py-3 rounded-full'>Services</a>
-                    <a href='#' className='hover:bg-secondary bg-opacity-50 px-4 py-3 rounded-full'>Blogs</a>
+                    
+                    <p  className='hover:bg-secondary bg-opacity-50 px-4 py-3 rounded-full'>
+                        <Link to={PathConstants.BLOG}>
+                            Blogs
+                        </Link>
+                       
+                    </p>
                 </div>
                 <div className='flex'>
                     <div className='rounded-full w-10 h-10 bg-primary p-3 text-white'>
