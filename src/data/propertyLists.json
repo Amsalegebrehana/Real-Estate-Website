@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "title": "Peninsula Apartment Homes",
+        "size": "3.9 MB",
+        "address": "1234 Main St",
+        "numberOfBedRooms": 4,
+        "numberOfBathRooms": 3,
+        "price": 200000,
+        "tag": "For Sale",
+        "type": "sell",
+        "description": "Spacious Four-Bedroom Apartment Offers Comfort and Convenience in a Prime Location Uncover a sanctuary of space and style in this captivating four-bedroom apartment, now available for sale in the heart of CA 94133. With a generous layout and exceptional features, this home promises a lifestyle of comfort and convenience.",
+       
+        "source": "https://images.pexels.com/photos/1643384/pexels-photo-1643384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+        "id": 2,
+        "title": "Four Bed Room Apartment",
+        "size": "3.9 MB",
+        "address": "CA 94133",
+        "numberOfBedRooms": 4,
+        "numberOfBathRooms": 3,
+        "price": 598350,
+        "tag": "Large",
+        "type": "sell",
+        "description": "Spacious Four-Bedroom Apartment Offers Comfort and Convenience in a Prime Location Uncover a sanctuary of space and style in this captivating four-bedroom apartment, now available for sale in the heart of CA 94133. With a generous layout and exceptional features, this home promises a lifestyle of comfort and convenience.",
+        "source": "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+        "id": 3,
+        "title": "Beautiful House",
+        "size": "3.9 MB",
+        "address": "Boston MA 02110",
+        "numberOfBedRooms": 3,
+        "numberOfBathRooms": 2,
+        "price": 1500,
+        "tag": "Discount",
+        "type": "rent",
+        "description": "Spacious Four-Bedroom Apartment Offers Comfort and Convenience in a Prime Location Uncover a sanctuary of space and style in this captivating four-bedroom apartment, now available for sale in the heart of CA 94133. With a generous layout and exceptional features, this home promises a lifestyle of comfort and convenience.",
+       
+        "source": "https://images.pexels.com/photos/2102587/pexels-photo-2102587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+        "id": 4,
+        "title": "Rental House",
+        "size": "3.9 MB",
+        "address": "Austin TX",
+        "numberOfBedRooms": 2,
+        "numberOfBathRooms": 1,
+        "price": 1000,
+        "tag": "Popular",
+        "type": "rent",
+        "description": "Spacious Four-Bedroom Apartment Offers Comfort and Convenience in a Prime Location Uncover a sanctuary of space and style in this captivating four-bedroom apartment, now available for sale in the heart of CA 94133. With a generous layout and exceptional features, this home promises a lifestyle of comfort and convenience.",
+       
+        "source": "https://images.pexels.com/photos/2227832/pexels-photo-2227832.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+        "id": 5,
+        "title": "Atlanta House",
+        "size": "3.9 MB",
+        "address": "Atlanta GA 30303",
+        "numberOfBedRooms": 4,
+        "numberOfBathRooms": 3,
+        "price": 3500,
+        "tag": "For Sale",
+        "type": "rent",
+        "description": "Spacious Four-Bedroom Apartment Offers Comfort and Convenience in a Prime Location Uncover a sanctuary of space and style in this captivating four-bedroom apartment, now available for sale in the heart of CA 94133. With a generous layout and exceptional features, this home promises a lifestyle of comfort and convenience.",
+       
+        "source": "https://images.pexels.com/photos/2724749/pexels-photo-2724749.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+        "id": 6,
+        "title": "Safe Neighborhood",
+        "size": "3.9 MB",
+        "address": "Okland CA 94612",
+        "numberOfBedRooms": 3,
+        "numberOfBathRooms": 2,
+        "price": 2000,
+        "tag": "Rent",
+        "type": "rent",
+        "description": "Spacious Four-Bedroom Apartment Offers Comfort and Convenience in a Prime Location Uncover a sanctuary of space and style in this captivating four-bedroom apartment, now available for sale in the heart of CA 94133. With a generous layout and exceptional features, this home promises a lifestyle of comfort and convenience.",
+       
+        "source": "https://images.pexels.com/photos/280222/pexels-photo-280222.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+        "id": 7,
+        "title": "Best Town House",
+        "size": "3.9 MB",
+        "address": "Austin TX",
+        "numberOfBedRooms": 2,
+        "numberOfBathRooms": 2,
+        "price": 1450,
+        "tag": "Top",
+        "type": "rent",
+        "description": "Spacious Four-Bedroom Apartment Offers Comfort and Convenience in a Prime Location Uncover a sanctuary of space and style in this captivating four-bedroom apartment, now available for sale in the heart of CA 94133. With a generous layout and exceptional features, this home promises a lifestyle of comfort and convenience.",
+       
+        "source": "https://images.pexels.com/photos/439227/pexels-photo-439227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    },
+    {
+        "id": 8,
+        "title": "Great View",
+        "size": "3.9 MB",
+        "address": "89034 Main St",
+        "numberOfBedRooms": 3,
+        "numberOfBathRooms": 2,
+        "price": 1000,
+        "tag": "New Listing",
+        "type": "sell",
+        "description": "Spacious Four-Bedroom Apartment Offers Comfort and Convenience in a Prime Location Uncover a sanctuary of space and style in this captivating four-bedroom apartment, now available for sale in the heart of CA 94133. With a generous layout and exceptional features, this home promises a lifestyle of comfort and convenience.",
+        "source": "https://images.pexels.com/photos/1669799/pexels-photo-1669799.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    }
+]
