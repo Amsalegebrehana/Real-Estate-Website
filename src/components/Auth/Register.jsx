@@ -10,10 +10,6 @@ const RegisterForm = () =>{
         .then(data => setCountries(data));
     }, []);
 
-    console.log(countries, typeof countries);
-    countries.map(country =>{
-        console.log(country.name.common);
-    })
 
     return(
         <div className="grid grid-cols-1 gap-x-8 gap-y-8 pt-10 md:grid-cols-3">
@@ -126,11 +122,9 @@ const RegisterForm = () =>{
                             className="block w-full rounded-xl border-0 py-3 pl-5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm sm:leading-6"
                         >
                             <option className='ml-5'>United States</option>
-                            {countries.map(country =>{
-                                <option >
-                                    {country.name.common}
-                                </option>
-                            })}
+                            <option className='ml-5'>Ethiopia</option>
+                            <option className='ml-5'>Canada</option>
+                            
                         </select>
                     </div>
                 </div>

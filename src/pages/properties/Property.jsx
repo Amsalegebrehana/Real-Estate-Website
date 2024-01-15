@@ -5,11 +5,10 @@ import BathIcon from '../../assets/bathroomicon.svg';
 
 const Property = () => {
     let {id} = useParams();
-    console.log(typeof id);
-    console.log(files);
+    
     id = parseInt(id)
     const property = files.filter((file) => file.id === id);
-    console.log(property);
+
     return (
         <div className='container'>
             <h1 className='sr-only'>Property {id}</h1>
@@ -34,12 +33,12 @@ const Property = () => {
                     </div>
                 </section>
                 <div className="flex space-x-10 font-thin  mt-10 " >
-                    {/* <BedIcon />  */} 
+                  
                     <div className="flex space-x-5">
 
                         <img src={BedIcon} alt="BedIcon" />
                         <p className='text-textcolor2 text-sm sm:text-base md:text-lg lg:text-xl font-semibold'>{property[0].numberOfBedRooms} Beds</p>
-                        {/* <BathIcon /> */} <br/>
+                       
                     </div>
                     
                     <div className="flex space-x-5 ">

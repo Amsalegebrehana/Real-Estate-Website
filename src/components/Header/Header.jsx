@@ -12,11 +12,9 @@ const Header = () => {
 
     const handleopenCollapse = () => {
         setIsOpen(true);
-        console.log(isOpen)
     };
     const handleCloseCollapse = () => {
         setIsOpen(false);
-        console.log(isOpen)
     }
 
     return (
